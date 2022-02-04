@@ -1,0 +1,308 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #2fcacf;
+}
+
+.walpaper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 50px 0 120px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+
+.hello {
+  padding: 10px 0 80px 0;
+}
+
+.hello__header {
+  text-align: center;
+  color: #15163f;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hello__p {
+  padding: 25px 0 0 0;
+}
+
+#slider {
+  /*положение слайдера*/
+  position: relative;
+  text-align: center;
+}
+
+#slider {
+  /*центровка слайдера*/
+  margin: 0 auto;
+}
+
+#slides article {
+  /*все изображения справа друг от доруга*/
+  width: 20%;
+  float: left;
+}
+
+#slides .image {
+  /*устанавливает общий размер блока с изображениями*/
+  width: 500%;
+  line-height: 0;
+}
+
+#slides .image img {
+  /*устанавливает общий размер блока с изображениями*/
+  max-width: 400px;
+  max-height: 600px;
+}
+
+#overflow {
+  /*сркывает все, что находится за пределами этого блока*/
+  width: 100%;
+  overflow: hidden;
+}
+
+article img {
+  /*размер изображений слайдера*/
+  width: 100%;
+}
+
+#desktop:checked ~ #slider {
+  /*размер всего слайдера*/
+  max-width: 450px;
+  /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#r1:checked ~ #controls label:nth-child(5),
+#r2:checked ~ #controls label:nth-child(1),
+#r3:checked ~ #controls label:nth-child(2),
+#r4:checked ~ #controls label:nth-child(3),
+#r5:checked ~ #controls label:nth-child(4) {
+  background: url("../media/img/icons/prev.png") no-repeat;
+  /*заливка фона картинкой без повторений*/
+  float: left;
+  margin: -40% 0 0 -84px;
+  /*сдвиг влево*/
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#r1:checked ~ #controls label:nth-child(2),
+#r2:checked ~ #controls label:nth-child(3),
+#r3:checked ~ #controls label:nth-child(4),
+#r4:checked ~ #controls label:nth-child(5),
+#r5:checked ~ #controls label:nth-child(1) {
+  background: url("../media/img/icons/next.png") no-repeat;
+  /*заливка фона картинкой без повторений*/
+  float: right;
+  margin: -40% -84px 0 0;
+  /*сдвиг вправо*/
+  display: block;
+  height: 68px;
+  width: 68px;
+}
+
+label, a {
+  /*при наведении на стрелки или переключатели - курсор изменится*/
+  cursor: pointer;
+}
+
+label {
+  margin: 0 20px 0 20px;
+}
+
+.images input {
+  /*скрывает стандартные инпуты (чекбоксы) на странице*/
+  display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#r1:checked ~ #slides .image {
+  margin-left: 0;
+}
+
+#r2:checked ~ #slides .image {
+  margin-left: -100%;
+}
+
+#r3:checked ~ #slides .image {
+  margin-left: -200%;
+}
+
+#r4:checked ~ #slides .image {
+  margin-left: -300%;
+}
+
+#r5:checked ~ #slides .image {
+  margin-left: -400%;
+}
+
+#controls {
+  /*положение блока всех управляющих элементов*/
+  margin: -28% 0 0 0;
+  width: 100%;
+  height: 50px;
+}
+
+#active label {
+  /*стиль отдельного переключателя*/
+  border-radius: 10px;
+  /*скругление углов*/
+  display: inline-block;
+  /*расположение в строку*/
+  width: 40px;
+  height: 20px;
+  background: #bbb;
+}
+
+#active {
+  /*расположение блока с переключателями*/
+  margin: 28% 0 0;
+  text-align: center;
+}
+
+#active label:hover {
+  /*поведение чекбокса при наведении*/
+  background: #76c8ff;
+  border-color: #777 !important;
+  /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#r1:checked ~ #active label:nth-child(1),
+#r2:checked ~ #active label:nth-child(2),
+#r3:checked ~ #active label:nth-child(3),
+#r4:checked ~ #active label:nth-child(4),
+#r5:checked ~ #active label:nth-child(5) {
+  background: #18a3dd;
+  border-color: #18a3dd !important;
+}
+
+#slides .image {
+  /*анимация пролистывания изображений*/
+  -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#controls label:hover {
+  /*прозрачность стрелок при наведении*/
+  opacity: 0.6;
+}
+
+#controls label {
+  /*прозрачность стрелок при отводе курсора*/
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  padding: 100px 0 0 0;
+  margin: 0 auto;
+}
+
+.video__header {
+  text-align: center;
+  color: #15163f;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.video__p {
+  padding: 50px 0 80px 0;
+}
