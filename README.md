@@ -4,7 +4,7 @@
 
 
 
-<p>
+<p align="center">
     Hi, I'm Elisey, a Frontend Developer from Russia. Dedicated to being a Fullstack Developer.
 </p>
 
@@ -20,7 +20,6 @@
 <p align="center">
 <a href="https://elishaflacon.github.io/">
     <img  src="https://user-images.githubusercontent.com/83610362/232098484-16345070-6824-46bf-8795-b504fe89b367.png"/>
-
 </a>
 </p>
     
@@ -32,11 +31,11 @@
 <br/>
    
 
+<h2 align="center">
+🛠️ Languages and Tools 🛠️
+</h2>
     
-
-## 🛠️ Languages and Tools:
-
-<p align="left">
+<p align="center">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="64" height="64" alt="JavaScript" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="64" height="64" alt="Python" /></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="64" height="64" alt="React" /></a>
@@ -50,17 +49,49 @@
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="64" height="64" alt="Git" /></a>
 </p>
 
+    
+<br/>
+<br/>
 <br/>
 
-## 🛠️ Connect With  Me:
 
+<h2 align="center">
+🔗 Connect With  Me 🔗
+</h2>
+
+<p align="center">
+<a href="https://github.com/elishaflacon" target="_blank">
+<img src=https://img.shields.io/badge/github-%23191622.svg?&style=for-the-badge&logo=github&logoColor=ff79c6 alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://t.me/elishaflacon" target="_blank">
+<img src=https://img.shields.io/badge/telegram-%23191622.svg?&style=for-the-badge&logo=telegram&logoColor=ff79c6 alt=instagram style="margin-bottom: 5px;" />
+</a>
+<a href="mailto:elishaflacon@gmail.com" target="_blank">
+<img src=https://img.shields.io/badge/gmail-%23191622.svg?&style=for-the-badge&logo=gmail&logoColor=ff79c6 alt=instagram style="margin-bottom: 5px;" />
+</a>
+<a href="https://stackoverflow.com/users/21644486" target="_blank">
+<img src=https://img.shields.io/badge/stackoverflow-%23191622.svg?&style=for-the-badge&logo=stackoverflow&logoColor=ff79c6 alt=stackoverflow style="margin-bottom: 5px;" />
+</a> 
+<a href="https://www.codewars.com/users/elishaflacon" target="_blank">
+<img src=https://img.shields.io/badge/codewars-%23191622.svg?&style=for-the-badge&logo=codewars&logoColor=ff79c6 alt=instagram style="margin-bottom: 5px;" />
+</a>
+</p>
+    
+    
+<br/>
+<br/>
 <br/>
 
-## ⚡ Stats:
-<p>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elishaflacon&hide_border=true&layout=compact&theme=omni" width="480" height="196" />
+    
+    
+<h2 align="center">
+⚡ Stats ⚡
+</h2>
+
+<p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=elishaflacon&show_icons=true&theme=omni&hide_border=true" width="480" height="196" />  
-<p/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elishaflacon&hide_border=true&layout=compact&theme=omni" width="480" height="196" />
+</p>
 
 <br/>
 
