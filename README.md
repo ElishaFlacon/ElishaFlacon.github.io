@@ -9,20 +9,23 @@
 </p>
 
 
+
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
+
 
 
 <p align="center">
-<a href="https://elishaflacon.github.io/">
-    <img  src="https://user-images.githubusercontent.com/83610362/232098484-16345070-6824-46bf-8795-b504fe89b367.png"/>
-</a>
+    <a href="https://elishaflacon.github.io/">
+        <img  src="https://user-images.githubusercontent.com/83610362/232098484-16345070-6824-46bf-8795-b504fe89b367.png"/>
+    </a>
 </p>
-    
+
+
 <br/>
 <br/>
 <br/>
@@ -30,6 +33,7 @@
 <br/>
 <br/>
    
+
 
 <h2 align="center">
 🛠️ Languages and Tools 🛠️
@@ -49,10 +53,12 @@
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="64" height="64" alt="Git" /></a>
 </p>
 
-    
+
+
 <br/>
 <br/>
 <br/>
+
 
 
 <h2 align="center">
@@ -77,7 +83,8 @@
 </a>
 </p>
     
-    
+
+
 <br/>
 <br/>
 <br/>
@@ -89,20 +96,28 @@
 </h2>
 
 <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=elishaflacon&show_icons=true&theme=omni&hide_border=true" width="480" height="196" />  
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elishaflacon&hide_border=true&layout=compact&theme=omni" width="480" height="196" />
+    <p align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=elishaflacon&show_icons=true&theme=omni&hide_border=true" width="480" height="196" />  
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elishaflacon&hide_border=true&layout=compact&theme=omni" width="480" height="196" />
+    </p>
+    <br/>
+    <div align="center">
+        <img src="https://www.codewars.com/users/ElishaFlacon/badges/large" align="center" />
+    </div>
+    <br/>
+    <div align="center">
+        <img src="https://komarev.com/ghpvc/?username=elishaflacon&&style=flat-square" align="center" />
+    </div>
 </p>
 
-<br/>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
