@@ -9,6 +9,30 @@
 </p>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<p align="center">
+<a href="https://elishaflacon.github.io/">
+    <img  src="https://user-images.githubusercontent.com/83610362/232098484-16345070-6824-46bf-8795-b504fe89b367.png"/>
+
+</a>
+</p>
+    
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+   
+
+    
 
 ## 🛠️ Languages and Tools:
 
@@ -24,4 +48,33 @@
 <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="64" height="64" alt="Sass" /></a>
 <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="64" height="64" alt="PostgreSQL" /></a>
 <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="64" height="64" alt="Git" /></a>
+</p>
+
+<br/>
+
+## 🛠️ Connect With  Me:
+
+<br/>
+
+## ⚡ Stats:
+<p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elishaflacon&hide_border=true&layout=compact&theme=omni" width="480" height="196" />
+    <img src="https://github-readme-stats.vercel.app/api?username=elishaflacon&show_icons=true&theme=omni&hide_border=true" width="480" height="196" />  
+<p/>
+
+<br/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=d179b8&height=64&section=footer"/>
 </p>
