@@ -68,7 +68,11 @@ here demo or ???
 ⚡ Or WTF?
 </h2>
 
-Start, but not working, hoorey 🗿🚬
+
+<h3>
+    Finally we launch app and nothing works, hoorey 🗿🚬
+</h3>
+
 
 
 
